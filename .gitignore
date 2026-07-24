@@ -7,3 +7,4 @@ sourcemap.json
 selene.toml
 rokit.toml
 wally.lock
+dev.project.json

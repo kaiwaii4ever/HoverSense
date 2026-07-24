@@ -1,20 +1,6 @@
 {
-    "name": "HoverSense",
+    "name": "hoversense",
     "tree": {
-        "$className": "DataModel",
-        "ReplicatedStorage": {
-            "$className": "ReplicatedStorage",
-            "Test": {
-                "$path": "test"
-            },
-            "Packages": {
-                "$path": "Packages",
-                "Hover": {
-                    "$path": "src",
-                    "Signal": { "$path": "Packages/Signal.lua" },
-                    "Observers": { "$path": "Packages/Observers.lua" }
-                }
-            }
-        }
+        "$path": "src"
     }
 }
