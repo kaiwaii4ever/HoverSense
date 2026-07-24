@@ -1,0 +1,22 @@
+{
+    "name": "HoverSense",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+
+            "Test": {
+                "$path": "test"
+            },
+
+            "Hover": {
+                "$path": "src"
+            },
+
+            "Packages": {
+                "$path": "Packages"
+            }
+        }
+    }
+}
