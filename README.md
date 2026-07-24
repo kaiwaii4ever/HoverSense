@@ -96,7 +96,7 @@ Full API reference available in the [document](/api/Hover).
 Included via Wally dependencies already
 
 - [Signal](https://github.com/Sleitnick/RbxUtil/tree/main/modules/signal)
-- [Observers](https://github.com/)
+- [Observers](https://github.com/Sleitnick/RbxObservers/tree/main/lib)
 
 ## License
 
