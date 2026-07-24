@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[776],{4410:e=>{e.exports=JSON.parse('{"sourceUrl":"https://github.com/kaiwaii4ever/HoverSense/blob/master","baseUrl":"/HoverSense/","classOrder":[],"apiCategories":[]}')}}]);
