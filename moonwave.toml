@@ -1,2 +1,7 @@
+[home]
+enabled = false
+includeReadme = true
+
 [docusaurus]
-title = "HoverSense"
+url = "https://Kaiwaii4ever.github.io"
+baseUrl = "/HoverSense/"
