@@ -3,6 +3,7 @@ enabled = false
 includeReadme = true
 
 [docusaurus]
-url = "https://Kaiwaii4ever.github.io"
+title = "HoverSense"
+url = "https://kaiwaii4ever.github.io"
 baseUrl = "/HoverSense/"
 onBrokenLinks = "warn"
