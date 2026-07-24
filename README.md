@@ -17,7 +17,7 @@ Add to your `wally.toml`:
 
 ```toml
 [dependencies]
-HoverSense = "kaiwaii4ever/hoversense@1.0.1"
+HoverSense = "kaiwaii4ever/hoversense@1.0.3"
 ```
 
 Then run:
