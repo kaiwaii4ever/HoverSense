@@ -1,13 +1,11 @@
 [package]
 name = "kaiwaii4ever/hoversense"
-authors = ["kaiwaii4ever"]
-license = "MIT"
-description = "Client-sided mouse hovering detection. Repo: github.com/kaiwaii4ever/HoverSense"
-version = "1.0.0"
-include = []
-exclude = []
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+license = "MIT"
+description = "A lightweight Roblox module for detecting mouse/touch/gamepad hover over tagged 3D instances"
+exclude = ["test", "moonwave.toml", "rokit.toml", "selene.toml", "sourcemap.json", "default.project.json"]
 
 [dependencies]
 Observers = "sleitnick/observers@0.5.0"
