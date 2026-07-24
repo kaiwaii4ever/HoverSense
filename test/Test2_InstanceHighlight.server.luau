@@ -4,7 +4,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local CollectionService = game:GetService("CollectionService")
 local TweenService = game:GetService("TweenService")
 
-local Hover = require(ReplicatedStorage:WaitForChild("Hover"))
+local Hover = require(ReplicatedStorage.Packages.Hover)
 
 local hover = Hover.new()
 hover:Init()

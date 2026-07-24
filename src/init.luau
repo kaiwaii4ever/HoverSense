@@ -3,11 +3,9 @@
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Packages = ReplicatedStorage:WaitForChild("Packages")
-local Signal = require(Packages:WaitForChild("Signal"))
-local Observers = require(Packages:WaitForChild("Observers"))
+local Signal = require(script.Parent.Signal)
+local Observers = require(script.Parent.Observers)
 
 export type HoverConfig = {
 	HoverRange: number,
@@ -18,6 +16,7 @@ export type HoverConfig = {
 export type Hover = {
 	Config: HoverConfig,
 
+	new: (options: {[string]: any}?) -> Hover,
 	Configure: (self: Hover, options: {[string]: any}) -> (),
 	GetHovered: (self: Hover) -> Instance?,
 	Init: (self: Hover) -> (),
@@ -72,7 +71,7 @@ export type Hover = {
 local Hover = {}
 Hover.__index = Hover
 
-if RunService:IsServer() then return (Hover :: any) end
+if RunService:IsServer() then return (Hover :: any) :: Hover end
 
 local localPlayer = Players.LocalPlayer :: Player
 
@@ -434,4 +433,4 @@ function Hover:Destroy()
 	self.Clicked:Destroy()
 end
 
-return Hover
+return (Hover :: any) :: Hover
