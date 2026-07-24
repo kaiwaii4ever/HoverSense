@@ -2,6 +2,9 @@ name: publish-docs
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   status:
     runs-on: ubuntu-latest
