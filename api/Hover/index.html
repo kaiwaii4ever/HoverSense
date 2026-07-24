@@ -46,8 +46,8 @@ hover.Clicked:Connect(function(instance)
 	print(&quot;Clicked while hovering:&quot;, instance:GetFullName())
 end)
 ```"><link data-rh="true" rel="canonical" href="https://kaiwaii4ever.github.io/HoverSense/api/Hover"><link data-rh="true" rel="alternate" href="https://kaiwaii4ever.github.io/HoverSense/api/Hover" hreflang="en"><link data-rh="true" rel="alternate" href="https://kaiwaii4ever.github.io/HoverSense/api/Hover" hreflang="x-default"><link rel="stylesheet" href="/HoverSense/assets/css/styles.e8e96400.css">
-<script src="/HoverSense/assets/js/runtime~main.a7cbd314.js" defer="defer"></script>
-<script src="/HoverSense/assets/js/main.30c55053.js" defer="defer"></script>
+<script src="/HoverSense/assets/js/runtime~main.1c243d38.js" defer="defer"></script>
+<script src="/HoverSense/assets/js/main.44013563.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -90,14 +90,14 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
 	<span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Clicked while hovering:"</span><span class="token punctuation">,</span> instance<span class="token punctuation">:</span><span class="token function">GetFullName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token keyword">end</span><span class="token punctuation">)</span>
 </code></pre>
-</div></header><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="functions">Functions<a href="#functions" class="hash-link" aria-label="Direct link to Functions" title="Direct link to Functions" translate="no">​</a></h2><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="new"><code style="text-decoration:none">new</code><a href="#new" class="hash-link" aria-label="Direct link to new" title="Direct link to new" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L239"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->.</code><code class="green_DgR4">new</code><code>(</code><div class="inset_uKQm"><div><code>options<!-- -->: </code><code class="blue_P4bS">table?</code><span class="inlineDescription_G7Er">-- <span>
+</div></header><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="functions">Functions<a href="#functions" class="hash-link" aria-label="Direct link to Functions" title="Direct link to Functions" translate="no">​</a></h2><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="new"><code style="text-decoration:none">new</code><a href="#new" class="hash-link" aria-label="Direct link to new" title="Direct link to new" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L238"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->.</code><code class="green_DgR4">new</code><code>(</code><div class="inset_uKQm"><div><code>options<!-- -->: </code><code class="blue_P4bS">table?</code><span class="inlineDescription_G7Er">-- <span>
 <p>Optional initial config overrides, see <a href="/HoverSense/api/Hover#Configure">Hover.Configure</a></p>
 </span></span></div></div><code>) → </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="/HoverSense/api/Hover">Hover</a></code></div><div>
 <p>
   Creates a new <code>Hover</code> instance. Does not start listening for hovers —
   call <a href="/HoverSense/api/Hover#Start">Hover:Start</a> to begin.
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Configure"><code style="text-decoration:none">Configure</code><a href="#Configure" class="hash-link" aria-label="Direct link to Configure" title="Direct link to Configure" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L270"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Configure</code><code>(</code><div class="inset_uKQm"><div><code>options<!-- -->: </code><code class="blue_P4bS">table</code><span class="inlineDescription_G7Er">-- <span>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Configure"><code style="text-decoration:none">Configure</code><a href="#Configure" class="hash-link" aria-label="Direct link to Configure" title="Direct link to Configure" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L269"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Configure</code><code>(</code><div class="inset_uKQm"><div><code>options<!-- -->: </code><code class="blue_P4bS">table</code><span class="inlineDescription_G7Er">-- <span>
 <p>A table of config keys to override</p>
 </span></span></div></div><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
@@ -105,27 +105,27 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
   <code>HoverRange</code>, <code>ContinuousHover</code>, and <code>Tag</code>. Unknown keys produce a warning
   and are ignored.
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="GetHovered"><code style="text-decoration:none">GetHovered</code><a href="#GetHovered" class="hash-link" aria-label="Direct link to GetHovered" title="Direct link to GetHovered" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L341"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">GetHovered</code><code>(</code><code>) → </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="https://developer.roblox.com/en-us/api-reference/datatype/Instance" target="_blank" rel="noopener noreferrer">Instance?<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound" style="color:gray;vertical-align:middle;margin-left:2px"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></code><span class="inlineDescription_G7Er">-- <span>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="GetHovered"><code style="text-decoration:none">GetHovered</code><a href="#GetHovered" class="hash-link" aria-label="Direct link to GetHovered" title="Direct link to GetHovered" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L340"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">GetHovered</code><code>(</code><code>) → </code><code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="https://developer.roblox.com/en-us/api-reference/datatype/Instance" target="_blank" rel="noopener noreferrer">Instance?<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound" style="color:gray;vertical-align:middle;margin-left:2px"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></code><span class="inlineDescription_G7Er">-- <span>
 <p>The currently hovered instance, if any</p>
 </span></span></div><div>
 <p>Returns the instance currently being hovered, or <code>nil</code> if nothing is hovered.</p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Init"><code style="text-decoration:none">Init</code><a href="#Init" class="hash-link" aria-label="Direct link to Init" title="Direct link to Init" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L354"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Init</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Init"><code style="text-decoration:none">Init</code><a href="#Init" class="hash-link" aria-label="Direct link to Init" title="Direct link to Init" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L353"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Init</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
   Sets up tag observation so tagged instances become hoverable. Called
   automatically by <a href="/HoverSense/api/Hover#Start">Hover:Start</a> if not already initialized — you generally
   don't need to call this yourself.
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Start"><code style="text-decoration:none">Start</code><a href="#Start" class="hash-link" aria-label="Direct link to Start" title="Direct link to Start" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L384"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Start</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Start"><code style="text-decoration:none">Start</code><a href="#Start" class="hash-link" aria-label="Direct link to Start" title="Direct link to Start" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L383"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Start</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
   Begins listening for mouse/touch/gamepad hovers over tagged instances.
   Calls <a href="/HoverSense/api/Hover#Init">Hover:Init</a> automatically if it hasn't run yet.
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Stop"><code style="text-decoration:none">Stop</code><a href="#Stop" class="hash-link" aria-label="Direct link to Stop" title="Direct link to Stop" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L402"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Stop</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Stop"><code style="text-decoration:none">Stop</code><a href="#Stop" class="hash-link" aria-label="Direct link to Stop" title="Direct link to Stop" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L401"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Stop</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
   Stops listening for hovers and clears any current hover state, firing
   <a href="/HoverSense/api/Hover#HoveringEnded">Hover.HoveringEnded</a> if something was being hovered.
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Destroy"><code style="text-decoration:none">Destroy</code><a href="#Destroy" class="hash-link" aria-label="Direct link to Destroy" title="Direct link to Destroy" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L418"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Destroy</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="Destroy"><code style="text-decoration:none">Destroy</code><a href="#Destroy" class="hash-link" aria-label="Direct link to Destroy" title="Direct link to Destroy" translate="no">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/kaiwaii4ever/HoverSense/blob/master/src/init.luau#L417"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Hover<!-- -->:</code><code class="green_DgR4">Destroy</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
   Stops the instance, disconnects all internal listeners, and destroys its
   signals. The <code>Hover</code> instance should not be used after calling this.
@@ -150,7 +150,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             ],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 239,
+                &quot;line&quot;: 238,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         },
@@ -167,7 +167,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 270,
+                &quot;line&quot;: 269,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         },
@@ -183,7 +183,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             ],
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 341,
+                &quot;line&quot;: 340,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         },
@@ -194,7 +194,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 354,
+                &quot;line&quot;: 353,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         },
@@ -205,7 +205,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 384,
+                &quot;line&quot;: 383,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         },
@@ -216,7 +216,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 402,
+                &quot;line&quot;: 401,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         },
@@ -227,7 +227,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 418,
+                &quot;line&quot;: 417,
                 &quot;path&quot;: &quot;src/init.luau&quot;
             }
         }
@@ -237,7 +237,7 @@ hover<span class="token punctuation">.</span>Clicked<span class="token punctuati
     &quot;name&quot;: &quot;Hover&quot;,
     &quot;desc&quot;: &quot;Detects when the player&#x27;s mouse (or touch/gamepad cursor) is hovering\nover tagged instances in the 3D world, using a raycast from the camera.\n\nHoverable instances are marked using a CollectionService tag (configurable\nvia `Config.Tag`, default `\&quot;Hoverable\&quot;`).\n\n:::info\nThis module is client-only. Requiring it on the server returns an empty table.\n:::\n\n```lua\nlocal hover = Hover.new()\nhover:Start()\n\nhover.HoveringStarted:Connect(function(instance)\n\tprint(\&quot;Started hovering:\&quot;, instance:GetFullName())\nend)\n\nhover.Clicked:Connect(function(instance)\n\tprint(\&quot;Clicked while hovering:\&quot;, instance:GetFullName())\nend)\n```&quot;,
     &quot;source&quot;: {
-        &quot;line&quot;: 72,
+        &quot;line&quot;: 71,
         &quot;path&quot;: &quot;src/init.luau&quot;
     }
 }</pre></details></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#Configure" class="table-of-contents__link toc-highlight">:Configure</a></li><li><a href="#Destroy" class="table-of-contents__link toc-highlight">:Destroy</a></li><li><a href="#GetHovered" class="table-of-contents__link toc-highlight">:GetHovered</a></li><li><a href="#Init" class="table-of-contents__link toc-highlight">:Init</a></li><li><a href="#Start" class="table-of-contents__link toc-highlight">:Start</a></li><li><a href="#Stop" class="table-of-contents__link toc-highlight">:Stop</a></li><li><a href="#new" class="table-of-contents__link toc-highlight">.new</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 kaiwaii4ever. Built with Moonwave and Docusaurus.</div></div></div></footer></div>
