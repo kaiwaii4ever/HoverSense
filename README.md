@@ -100,4 +100,4 @@ Included via Wally dependencies already
 
 ## License
 
-MIT [LICENSE](./LICENSE)
+MIT [LICENSE](https://github.com/kaiwaii4ever/HoverSense/blob/main/LICENSE)
