@@ -75,7 +75,7 @@ Stops listening, disconnects all internal connections, and destroys all signals.
 
 ## API
 
-Full API reference available in the [document](/api/Hover).
+Full API reference available in the [document](https://kaiwaii4ever.github.io/HoverSense/api/Hover).
 
 - `HoverSense.new(options?)` — creates a new instance
 - `hover:Configure(options)` — update config after creation
